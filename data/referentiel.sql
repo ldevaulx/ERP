@@ -15,8 +15,7 @@ CREATE TABLE societe (
 	dtcrea DATETIME NOT NULL,
 	dtmaj DATETIME NOT NULL,
 	cduti VARCHAR(6) NOT NULL,
-	status UNSIGNED INT NOT NULL,
+	status INT UNSIGNED NOT NULL,
 	PRIMARY KEY(cdsoc)
 );
-
 
